@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yoga Website</title>
-</head>
-<body>
+    <link rel="shortcut icon" href="img/icon-title.png" />
+  </head>
+  <body>
     <header class="header">
-        <nav class="header__nav" aria-label="primary-navigation">
-            <div class="container-header-logo">
-                <a href="./" class="header__logo">
-                    <img src="img/logo_nav-yoga.svg" alt="Logo Yoga">
-                </a>
-            </div>
-            <div class="nav-burger">
-                <span></span>
-            </div>
-            <a class="header__about" href="#about">About</a>
-            <a class="header__classes" href="#classes">Classes</a>
-            <a class="header__pricing" href="#pricing">Pricing</a>
-            <a class="header__schedule" href="#schedule">Schedule</a>
-            <a class="header__contacts" href="#contacts">Contacts</a>
-        </nav>
+      <nav class="header__nav">
+        <div class="container-header-logo">
+          <a href="./" class="header__logo">
+            <img src="img/logo_nav-yoga.svg" alt="Logo Yoga" />
+          </a>
+        </div>
+        <div class="nav-burger">
+          <label for="burger-checkbox" class="burger-icon">☰</label>
+          <input id="burger-checkbox" class="burger-checkbox" type="checkbox" />
+        </div>
+        <div class="header-nav-menu">
+          <a class="header-nav__menu-item" href="#about">About</a>
+          <a class="header-nav__menu-item" href="#classes">Classes</a>
+          <a class="header-nav__menu-item" href="#pricing">Pricing</a>
+          <a class="header-nav__menu-item" href="#schedule">Schedule</a>
+          <a class="header-nav__menu-item" href="#contacts">Contacts</a>
+        </div>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="join-us">
+        <div class="join-us__title-container">
+            <h2 class="join-us__h2">Beauty & mind</h2>
+            <h1>Atta Yoga - Your Spiritual Heaven</h1>
+        </div>
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
